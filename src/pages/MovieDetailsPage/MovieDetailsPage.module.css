@@ -1,0 +1,62 @@
+.MovieDetailsPage {
+  padding: 16px 42px;
+}
+
+img {
+  margin-top: 26px;
+  display: inline-block;
+}
+
+.MovieInfo {
+  margin-left: 55px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h2 {
+  font-size: 21px;
+  color: #1be5a8;
+  font-weight: bold;
+}
+
+span {
+  margin-left: 13px;
+  color: #63d8ff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #646464;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 13px;
+  color: #63d8ff;
+}
+
+.additionalInfoLinks {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  margin-right: 13px;
+  text-decoration: none;
+}
+.additionalInfoLinks:hover {
+  color: #1be5a8;
+}
+.activeLink {
+  color: #1be5a8;
+}

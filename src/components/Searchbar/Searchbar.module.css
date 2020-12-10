@@ -1,0 +1,35 @@
+.Searchbar {
+  padding: 16px 42px;
+}
+
+.SearchForm {
+  display: flex;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.SearchFormButton {
+  display: inline-block;
+  margin-left: 13px;
+  width: 89px;
+  height: 42px;
+  border-radius: 3px;
+  background-color: #1be5a8;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  font-size: 16px;
+  padding-left: 8px;
+  width: 377px;
+  border: 2px solid #646464;
+  border-radius: 3px;
+  outline: none;
+  color: #333333;
+}

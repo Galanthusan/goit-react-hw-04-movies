@@ -1,0 +1,26 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #63d8ff;
+}
+.nameTitle {
+  color: #333333;
+}
+img {
+  height: 300px;
+}
+
+.noCast {
+  font-size: 18px;
+  color: #ff806c;
+}
